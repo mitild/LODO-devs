@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  border-bottom: 4px solid #E09660;
+
+}
+
+#hero-section {
+  background-image: url(/images/earth.jpg);
+  background-size: cover;
+  min-height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0px 0px 1px black;
+}
+
+#hero-title {
+  font-size: 5em; 
+}
+
+#hero-h3 {
+  font-size: 3.5em;
+}
+
+#hero-h4 {
+  font-size: 2em;
+}
+
+#activities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+  background: #14202E;
+  border-top: 4px solid #E09660;
+  border-bottom: 4px solid #E09660;
+
+}
+
+#dive, #jump, #run {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 1px black;
+}
+
+#img-dive, #img-jump, #img-run {
+  width: 300px;
+  height: 300px;
+  border: 4px solid #E09660;
+  border-radius: 50%;
+}
+
+#img-dive:hover {
+  content: url(/images/dive.gif);
+}
+
+#img-run:hover {
+  content: url(/images/corro.gif);
+}
+
+#img-jump:hover {
+  content: url(/images/salto.gif);
+}
+
+#activities h3 {
+  font-size: 2em;
+  margin: 20px 0px 20px 0px;
+}
+
+#activities p {
+  font-size: 1.5em;
+  margin: 20px 20px 20px 20px;
+}
+
+#card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  background-color: #14202E;
+  color: #fff;
+  text-shadow: 0px 0px 1px black;
+  border-bottom: 4px solid #E09660;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 100px;
+}
+
+#img-lodo {
+  width: 200px;
+  border: 4px solid #E09660;
+  border-radius: 50%;
+}
+
+#img-lodo:hover {
+  transform: rotate(359deg);
+  transition: transform ease-in 5s;
+}
+
+#card-info {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 300px;
+}
+
+#about-text {
+  margin: 17px 0px;
+  font-size: 1em;
+}
+
+a {
+  color: #fff;
+}
+
+#center-card {
+  margin: 0px auto;
+  width: 900px;
+}
